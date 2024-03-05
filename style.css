@@ -5,23 +5,26 @@
    font-family: 'Poppins', sans-serif;
 }
 
+
 body{
-   background: green;
+   background:linear-gradient(rgb(0, 72, 0) 0%, rgb(0, 186, 0) 100%) ;
    color: #fff;
 }
 
 .container{
-   margin: 12%;
+   margin: 12% auto;
    width: 90%;
+   min-height: 100%;
    max-width: 700px;
+   height: 67.5vh;
 }
+
 
 .display{
    width: 100%;
    margin-top: 50px;
    margin-bottom: 30px;
    background:#fff;
-   color: #333;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -35,8 +38,8 @@ body{
 }
 
 .container h1 span{
-   color: #019f55;
-   border-bottom: 4px solid rgb(0, 22, 0);
+   color: rgb(3, 62, 21);
+   border-bottom: 4px solid rgb(3, 62, 21);
    padding-bottom: 7px;
 }
 
@@ -59,7 +62,7 @@ body{
 .container button{
    border: 0;
    outline: 0;
-   background: red;
+   background: rgb(159, 1, 1);
    color:#fff;
    font-size: 22px;
    font-weight: 300;
